@@ -1,23 +1,86 @@
 /*Teal color for headings and backgrounds #4aaaa5*/
-
+h1, h2{
+    
+    background-color: #4aaaa5;
+    font-color: #4aaaa5;
+    width: 50%
+    
+}
 
 /*Regular font color for paragaphs and all text #777*/
 
-
-/*Main header background color #fff and border color #ccc*/
+p {
+    color: #777;
+    font-family: 'Arial', 'Helvectica Neue', Helvetica, sans-serif;
+    
+    }
 
 /*Footer background color #666*/
 
+footer{
+    
+    background-color: #666;
+    height: 50px;
+    width: auto;
+    font-size: 12px;
+    position: fixed;
+}
+
 /*Main content background color #fff, border color #ddd*/
 
-/*Fonts for heading 'Georgia', Times, Times New Roman, serif*/
+main-content {
+    
+    background-color: #fff;
+    border-color: solid, red;
+}
 
+
+/*Fonts for heading 'Georgia', Times, Times New Roman, serif*/
+/*Main header background color #fff and border color #ccc*/
+
+
+#menuBar {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    float: right;
+    border-color: solid, red; 
+    
+}
 
 
 /*All other fonts 'Arial, 'Helvectica Neue', Helvetica, sans-serif*/
 
-/**/
 
-/**/
+    
+    
+/*My Name's Styling*/
+    
+    #myName{
+        background-color: yellow;
+            }
+/*move image to the left*/
 
-/**/
+#bio{
+    width:300px;
+    float: left;    
+}
+
+/*Sidebar styling*/
+
+sidebar{
+    float: right;
+    width: auto;
+    margin:auto;
+    padding: 0;
+    /*background-color:;*/
+}
+
+/*styleing for hyperlinks*/
+
+a {
+    text-decoration: none;
+}
+/* about me styling*/
+
+#aboutMe {
+    float:right;
+}
