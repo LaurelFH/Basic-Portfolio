@@ -16,41 +16,45 @@
     
 <body>
 
- <main>
-<!-- Div with my name in it-->
-        <div id="myName">
-
-         <h1>Laurel Foote-Hudson</h1>
-
-        </div>
-
-<!--Navigation bar/header with a list of links to other pages-->
+ <!--Navigation bar/header with a list of links to other pages-->
     <header>	
+<!--Main div-->
+	<div>
+    <!-- Div with my name in it-->
+       <div id="myName">
 
-        <nav id="menuBar">
+        	<h1>Laurel Foote-Hudson</h1>
+
+   		</div>
+
+       <div id="menuBar">
+
+          <nav>
                           
-            <a href="index.html">About Me</a>
+            <a href="index.html" class="menulink">About Me</a>
 
-            <a href="Basic-Portfolio/portfolio.html">Portfolio</a>
+            <a href="Basic-Portfolio/portfolio.html" class="menulink">Portfolio</a>
 
-            <a href="contact.html">Contact</a>
+            <a href="contact.html" class="menulink">Contact</a>
                       
-        </nav>
+        	</nav>
+
+		</div>
+
+	</div>
 
     </header>
        
 <!--About me paragraphs-->
-    <div>
+    <div id="aboutMe">
 
-	    <section id="aboutMe"> 
+	    <section> 
 			
 			<h2>About Me</h2>
 
  				<img id="bio" src="http://www.ethosreview.org/wp-content/uploads/2013/12/cosplay2.jpg" alt="profile photo" height=100px width=100px>
 
         		<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p> 
-
-        <br>
 
        			<p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
    
@@ -60,37 +64,41 @@
         
     
 <!--Sidebar containing social media links, images found via IconFinder, and are live links-->
-   
-    <sidebar id="sidebar1">
+   <div id="sidebar1">
+    
+    <sidebar>
 
             <h2>Connect with Me</h2>
 
             <!--Github link-->
-            <a href="" target="_blank"></a>
+            <a href="#" target="_blank"></a>
 
             <img src="assets/images/github.png" width="40" height="40">
         
             <!--Linkedin Link-->            
-            <a href="" target="_blank"></a>
+            <a href="#" target="_blank"></a>
 
             <img src="assets/images/linkedin.png" width="40" height="40">
             
             <!--Overstack Link-->
-             <a href="" target="_blank"></a>
+             <a href="#" target="_blank"></a>
 
             <img src="assets/images/Stack_Overflow.png" width="40" height="40">     
         
     </sidebar>
 
- </main>
+	</div>
+ 
 <!--Footer information-->
-    
+ <div>   
          <footer>
 
             <p>Copyright 2017 Laurel Foote-Hudson</p>
 
         </footer>
-    
+
+  </div>
+	
 	</body>
 
 </html>
