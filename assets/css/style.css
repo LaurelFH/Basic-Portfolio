@@ -14,6 +14,7 @@ h1 {
     text-align: center;
     padding: 0px;
     float: left;
+    margin: -20px;
 }
 h2 {  
     
@@ -31,17 +32,17 @@ body {
     color: #777;
     font-family: 'Arial', 'Helvectica Neue', Helvetica, sans-serif;
     width: 960px;
-    
+    margin: 0px;
     }
 
-header {
+/*header {
     height: 50px;
     margin-bottom: 25px;
     background-color: white;
     }
-
+*/
 /*naviagtion style*/
-  .menuBar {
+  .topmenu {
 
     font-family: 'Georgia', Times, Times New Roman, serif;
     display: inline-block;
@@ -55,13 +56,21 @@ header {
 }
 /* my name styling*/
 #myName {
-    margin-left: 0px;
+
+    margin-left: 20px;
+    margin-bottom: 10px;
     text-align: center;
     padding:0;
     width: 100%;
     background-color: white;
+    float: left;
    }
+/*Menulink styling*/
+a.menulink {
 
+    font-color: blue;
+    font-family: Arial, sans-serif;
+    }
 
 /*Footer*/
 
@@ -105,27 +114,22 @@ main-content {
 
 /*Profile photo styling*/
 #mypic{
+
     float: left;
     margin-right: 5px;
-
 }
 
 
 /* About me id styling*/
 
 #aboutMe {
+ 
     background-color: white;
     width: 600px;
     height: 325px;
     padding: 25px;
-    margin-top: 30px;
+    margin-top: 300px;
 
 }
 
 
-/*Menulink styling*/
-a.menulink {
-
-    font-color: blue;
-    font-family: Arial, sans-serif;
-    }
