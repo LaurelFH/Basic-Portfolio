@@ -78,8 +78,9 @@ Main header background color #fff and border color #ccc*/
  
 
 /*Profile photo styling*/
-#bio{
+#mypic{
     float: left;
+    margin-right: 5px;
 
 }
 
