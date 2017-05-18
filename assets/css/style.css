@@ -7,7 +7,7 @@ h1 {
     border-color: #ccc;
     background-color: #4aaaa5;
     text-align: center;
-    padding: auto;
+    padding: 1px;
     float: left;
     /*margin: 20px;*/
 }
@@ -28,7 +28,7 @@ body {
     font-family: 'Arial', 'Helvectica Neue', Helvetica, sans-serif;
     /*width: 960px;*/
     margin: 0px;
-    border: 3px solid green;
+    /*border: 3px solid green;*/
     }
 
     .pagecontent{
@@ -55,7 +55,7 @@ body {
     width: 300px;
     height: 100%;
     /*float: right;*/
-    border: 3px solid yellow;
+    /*border: 3px solid yellow;*/
     float: none;
     vertical-align: top;
     left: 773px;
@@ -68,9 +68,8 @@ body {
 
     background-color: white;
     vertical-align: top;
-    height: 85px;
+    height: 80px;
 }
-
 
 /* my name styling*/
 #myName {
@@ -83,7 +82,7 @@ body {
     display: inline-block;
     position: relative;
     left: 30px;
-    border: 3px solid orange;
+    /*border: 3px solid orange;*/
     display: inline-block;
    }
 
@@ -94,8 +93,7 @@ a.menulink {
     font-family: Arial, sans-serif;
     font-size: 25px;
     text-decoration: none;
-
-    }
+ }
 
 
 /*Main content background color #fff, border color #ddd
@@ -120,7 +118,7 @@ main-content {
     background-color: white;
     text-align: center;
     /*float: right;*/
-    border: 3px solid red;
+    /*border: 3px solid red;*/
     display: inline-block;
     vertical-align: top;
     position: absolute;
@@ -137,7 +135,7 @@ main-content {
     padding: 25px;
     /*margin-top: 300px;*/
     display: inline-block;
-    border: 3px solid blue;
+    /*border: 3px solid blue;*/
     margin-left: 20px;
 
 }
@@ -159,7 +157,7 @@ main-content {
     padding: 25px;
     /*margin-top: 300px;*/
     display: inline-block;
-    border: 3px solid blue;
+    /*border: 3px solid blue;*/
     margin-left: 20px;
 
 }
@@ -188,6 +186,7 @@ footer{
     color: white;
     width: 100%;
     text-align: center;
+    padding-top: 10px;
     bottom: 0;
     position: fixed;
     border-top: solid #4aaaa5 10px;
