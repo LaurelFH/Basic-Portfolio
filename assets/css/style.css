@@ -1,4 +1,4 @@
-/*heading fonts and styles*/
+/*all heading fonts and styles*/
 
 h1 {
     
@@ -16,7 +16,7 @@ h2 {
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
     border-bottom: solid gray 2px;
-    padding-bottom: 3px;
+    padding-bottom: 25px;
     
     }
 
@@ -42,6 +42,7 @@ body {
     background-color: white;
     }
 */
+
 /*navigation style*/
   .topmenu {
 
@@ -62,7 +63,7 @@ body {
     top: 30px;
     
 }
-
+/*contaner for the page menu*/
 .pagemenu {
 
     background-color: white;
@@ -147,6 +148,35 @@ main-content {
     float: left;
     margin-right: 5px;
 }
+
+/* recentwork id styling*/
+
+#recentwork {
+ 
+    background-color: white;
+    width: 650px;
+    height: 1000px;
+    padding: 25px;
+    /*margin-top: 300px;*/
+    display: inline-block;
+    border: 3px solid blue;
+    margin-left: 20px;
+
+}
+
+
+/*styling for small portfolio pictures*/
+
+.smallpic {
+
+    width: 300px; 
+    height: 300px; 
+    /*float: left; */
+    margin-right: 20px;
+    margin-top:5px; 
+    overflow: hidden;
+}
+
 
 /*Footer*/
 
