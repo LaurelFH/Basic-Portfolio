@@ -57,7 +57,7 @@ body {
     border: 3px solid yellow;
     float: none;
     vertical-align: top;
-    left: 700px;
+    left: 773px;
     position: absolute;
     top: 30px;
     
@@ -69,8 +69,6 @@ body {
     vertical-align: top;
     height: 85px;
 }
-
-
 
 
 /* my name styling*/
@@ -91,7 +89,7 @@ body {
 /*Menulink styling*/
 a.menulink {
 
-    font-color: #777;
+    font-color: #77777;
     font-family: Arial, sans-serif;
     font-size: 25px;
     text-decoration: none;
@@ -133,12 +131,13 @@ main-content {
 #aboutMe {
  
     background-color: white;
-    width: 600px;
-    height: 325px;
+    width: 650px;
+    height: 400px;
     padding: 25px;
     /*margin-top: 300px;*/
     display: inline-block;
     border: 3px solid blue;
+    margin-left: 20px;
 
 }
 
