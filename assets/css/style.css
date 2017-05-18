@@ -2,7 +2,7 @@
 
 h1 {
     
-    font-color: #ffffff;
+    color: white;
     font-family: 'Georgia', Times, Times New Roman, serif;
     border-color: #ccc;
     background-color: #4aaaa5;
@@ -41,15 +41,18 @@ body {
   .topmenu {
 
     font-family: 'Georgia', Times, Times New Roman, serif;
+    /*font-size: 100%;*/
     display: inline-block;
     /*background-color: white;*/
     /*margin: 0 auto;*/
     /*height: 200px;*/
-    width: 270px;
+    width: 300px;
     height: 100%;
     /*float: right;*/
     border: 3px solid yellow;
     float: none;
+    vertical-align: top;
+    margin-left: 100px;
 
     
 }
@@ -82,9 +85,11 @@ body {
 /*Menulink styling*/
 a.menulink {
 
-    font-color: blue;
+    font-color: #777;
     font-family: Arial, sans-serif;
-    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+
     }
 
 
