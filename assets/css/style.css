@@ -1,7 +1,3 @@
-a {
-    text-decoration: none;
-}
-
 /*heading fonts and styles*/
 
 h1 {
@@ -13,7 +9,7 @@ h1 {
     text-align: center;
     padding: 0px;
     float: left;
-    margin: 20px;
+    /*margin: 20px;*/
 }
 h2 {  
     
@@ -46,20 +42,33 @@ body {
 
     font-family: 'Georgia', Times, Times New Roman, serif;
     display: inline-block;
-    background-color: none;
-    margin: 0px;
-    height: 200px;
-    float: right;
-    padding:0px;
-    margin: 0px;
+    /*background-color: white;*/
+    /*margin: 0 auto;*/
+    /*height: 200px;*/
+    width: 270px;
+    height: 100%;
+    /*float: right;*/
     border: 3px solid yellow;
+    float: none;
 
+    
 }
+
+.pagemenu {
+
+    background-color: white;
+    vertical-align: top;
+    height: 94px;
+}
+
+
+
+
 /* my name styling*/
 #myName {
 
-    margin-left: 20px;
-    margin-bottom: 10px;
+    /*margin-left: 20px;*/
+    /*margin-bottom: 10px;*/
     text-align: center;
     padding:0;
     background-color: white;
@@ -67,12 +76,15 @@ body {
     position: relative;
     left: 30px;
     border: 3px solid orange;
+    display: inline-block;
    }
+
 /*Menulink styling*/
 a.menulink {
 
     font-color: blue;
     font-family: Arial, sans-serif;
+    text-align: center;
     }
 
 
