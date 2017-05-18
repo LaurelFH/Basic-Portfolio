@@ -7,7 +7,7 @@ h1 {
     border-color: #ccc;
     background-color: #4aaaa5;
     text-align: center;
-    padding: 0px;
+    padding: auto;
     float: left;
     /*margin: 20px;*/
 }
@@ -31,13 +31,18 @@ body {
     border: 3px solid green;
     }
 
+    .pagecontent{
+
+        margin-top: 20px;
+    }
+
 /*header {
     height: 50px;
     margin-bottom: 25px;
     background-color: white;
     }
 */
-/*naviagtion style*/
+/*navigation style*/
   .topmenu {
 
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -52,8 +57,9 @@ body {
     border: 3px solid yellow;
     float: none;
     vertical-align: top;
-    margin-left: 100px;
-
+    left: 700px;
+    position: absolute;
+    top: 30px;
     
 }
 
@@ -61,7 +67,7 @@ body {
 
     background-color: white;
     vertical-align: top;
-    height: 94px;
+    height: 85px;
 }
 
 
@@ -74,7 +80,7 @@ body {
     /*margin-bottom: 10px;*/
     text-align: center;
     padding:0;
-    background-color: white;
+    background-color: #4aaaa5;
     display: inline-block;
     position: relative;
     left: 30px;
@@ -109,8 +115,8 @@ main-content {
 #sidebar1 {
 
     width: 270px;
-    margin-left: 20px;
-    /*padding: 2px;*/
+    margin-left: 40px;
+    padding: 25px;
     /*height: auto;*/
     background-color: white;
     text-align: center;
@@ -118,7 +124,7 @@ main-content {
     border: 3px solid red;
     display: inline-block;
     vertical-align: top;
-    position: fixed;
+    position: absolute;
    }
        
 
