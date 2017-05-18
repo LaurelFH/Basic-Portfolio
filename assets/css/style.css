@@ -169,12 +169,72 @@ main-content {
 
     width: 300px; 
     height: 300px; 
-    /*float: left; */
+    float: left; 
     margin-right: 20px;
     margin-top:5px; 
     overflow: hidden;
+    /*position:absolute;*/
+    /*position:relative;*/
 }
 
+/*styles for picture banners*/
+
+h3 {
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: normal;
+    font-size: 20px;
+    border-color: #ccc;
+    background-color: #4aaaa5;
+    text-align: center;
+    padding-top: 6px;
+    float: left;
+    height: 30px;
+    width: 300px;
+    z-index: 100;
+    position: absolute;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 210px;
+
+    /*position: absolute;*/
+    /*margin: 20px;*/
+
+}
+
+/*button style*/
+
+button {
+
+background-color: #4aaaa5;
+border: none;
+text-decoration: none;
+padding: 10px;
+color: white;
+
+}
+
+
+/*
+#carban{
+
+}
+
+#catwalkban {
+
+
+}
+
+#poitionban {
+
+
+}
+
+#recordban{
+
+
+}
+*/
 
 /*Footer*/
 
